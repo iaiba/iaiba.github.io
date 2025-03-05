@@ -1,0 +1,98 @@
+/*--- 全体的な設定 ---*/
+
+body{
+  font-family: serif;
+  background-color: whitesmoke;
+  padding-top: 120px;
+}
+
+/*--- ヘッダーの設定 ---*/
+
+#site-title a{
+  text-decoration: none;
+  color: #000 ;
+  font-size: 35px;
+  padding: 0.5em;
+}
+
+#masthead{
+  background: whitesmoke;
+  font-family: Bookman Old Style;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+header nav ul li{
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+  background-color: #2BA;
+  box-shadow: 3px 3px #777;
+  float: left;
+  margin-right: 0px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  transition: all 0.5s linear 0s;
+}
+
+header nav ul li a{	
+  text-decoration: none;
+  color: #000 ;
+}
+
+header nav ul li a:hover{
+  color: red;
+}
+
+/*--- ページ内容の設定 ---*/
+
+#page-content h2, h3{
+  color: #04A;
+}
+
+.page-header .page-title{
+  text-align: center;
+}
+
+#content{
+  padding-bottom: 30px;
+}
+
+#papers a{
+  text-decoration: none;
+  color: #379 ;
+}
+
+#papers a:hover{
+  color: #B0B ;
+}
+
+#coauthor a{
+  text-decoration: none;
+  color: gray;
+}
+
+#coauthor a:hover{
+  color: green;
+}
+
+/*--- フッターの設定 ---*/
+
+footer{
+  font-family: serif;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+
