@@ -3,7 +3,7 @@
 body{
   font-family: serif;
   background-color: whitesmoke;
-  padding-top: 125px;
+  padding-top: 130px;
 }
 
 /*--- ヘッダーの設定 ---*/
@@ -39,8 +39,8 @@ header nav ul li{
   box-shadow: 3px 3px #777;
   float: left;
   margin-right: 0px;
-  padding-top: 7.5px;
-  padding-bottom: 7.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.5s linear 0s;
 }
 
@@ -76,6 +76,32 @@ header nav ul li a:hover{
   color: red;
 }
 
+#research-jp a{
+  color: #04A;
+}
+
+#research-jp a:hover{
+  color: red;
+}
+
+#external a{
+  color: #04A;
+}
+
+#external a:hover{
+  color: red;
+}
+
+#add-info li{
+  font-size: 0.8em;
+}
+
+/*- 折りたたみ -*/
+
+summary{
+  background: #DDD;
+}
+
 /*- 論文関係 -*/
 
 #papers a{
@@ -87,15 +113,11 @@ header nav ul li a:hover{
   color: #B0B ;
 }
 
-#add-info li{
-  font-size: 0.8em;
-}
-
 /*- 共著者リンク -*/
 
 #coauthor a{
   text-decoration: none;
-  color: gray;
+  color: #666;
 }
 
 #coauthor a:hover{
@@ -114,6 +136,10 @@ footer{
 
 footer a{
   color: #2BA;
+}
+
+footer a:hover{
+  color: red;
 }
 
 
