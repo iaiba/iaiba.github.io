@@ -67,6 +67,14 @@ header nav ul li a:hover{
   padding-bottom: 30px;
 }
 
+#CV a{
+  color: #04A;
+}
+
+#CV a:hover{
+  color: red;
+}
+
 #papers a{
   text-decoration: none;
   color: #379 ;
@@ -93,6 +101,10 @@ footer{
   text-align: center;
   padding-top: 15px;
   padding-bottom: 0px;
+}
+
+footer a{
+  color: #2BA;
 }
 
 
