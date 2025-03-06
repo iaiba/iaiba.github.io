@@ -99,6 +99,7 @@ header nav ul li a:hover{
 /*- 折りたたみ -*/
 
 summary{
+  list-style-type: none;
   background: #DDD;
 }
 
@@ -111,6 +112,10 @@ summary{
 
 #papers a:hover{
   color: #B0B ;
+}
+
+#items{
+  margin-bottom: 30px;
 }
 
 /*- 共著者リンク -*/
