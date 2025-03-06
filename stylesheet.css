@@ -3,7 +3,8 @@
 body{
   font-family: serif;
   background-color: whitesmoke;
-  padding-top: 130px;
+  /*padding-top: 130px;*/
+  padding-top: 9.0em;
 }
 
 /*--- ヘッダーの設定 ---*/
@@ -39,8 +40,8 @@ header nav ul li{
   box-shadow: 3px 3px #777;
   float: left;
   margin-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
   transition: all 0.5s linear 0s;
 }
 
