@@ -55,6 +55,11 @@ header nav ul li a:hover{
 
 /*--- ページ内容の設定 ---*/
 
+#page-content{
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
 #page-content h2, h3{
   color: #04A;
 }
