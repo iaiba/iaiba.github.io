@@ -6,12 +6,6 @@ body{
   padding-top: 10.0em;
 }
 
-@media all and (max-width: 800px){
-  body{
-    font-size: 90%;
-  }
-}
-
 /*--- ヘッダーの設定 ---*/
 
 #site-title a{
