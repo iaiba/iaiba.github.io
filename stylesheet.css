@@ -9,12 +9,14 @@ body{
 @media screen and (max-width:800px){
   body{
     font-size: 90%;
+    padding-top: 8.5em;
   }
 }
 
 @media screen and (max-width:600px){
   body{
     font-size: 85%;
+    padding-top: 8em;
   }
 }
 
