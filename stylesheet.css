@@ -6,6 +6,18 @@ body{
   padding-top: 10.0em;
 }
 
+@media screen and (max-width:800px){
+  body{
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width:600px){
+  body{
+    font-size: 85%;
+  }
+}
+
 /*--- ヘッダーの設定 ---*/
 
 #site-title a{
@@ -140,6 +152,18 @@ footer{
   text-align: center;
   padding-top: 15px;
   padding-bottom: 0px;
+}
+
+@media screen and (max-width:800px){
+  footer{
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width:600px){
+  footer{
+    font-size: 85%;
+  }
 }
 
 footer a{
