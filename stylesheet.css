@@ -72,7 +72,7 @@ header nav ul li a{
 
 @media screen and (max-width:800px){
   header nav ul li a{
-    font-size: 0.95em;
+    font-size: 0.9em;
     text-decoration: none;
     color: #000 ;
   }
@@ -80,7 +80,7 @@ header nav ul li a{
 
 @media screen and (max-width:600px){
   header nav ul li a{
-    font-size: 0.9em;
+    font-size: 0.85em;
     text-decoration: none;
     color: #000 ;
   }
@@ -155,7 +155,7 @@ summary{
 }
 
 #items{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 /*- 共著者リンク -*/
