@@ -27,6 +27,15 @@ body{
   padding: 0.5em;
 }
 
+@media screen and (max-width:800px){
+  #site-title a{
+    text-decoration: none;
+    color: #000 ;
+    font-size: 1em;
+    padding: 0.25em;
+  }
+}
+
 #masthead{
   background: whitesmoke;
   font-family: Bookman Old Style;
@@ -59,6 +68,22 @@ header nav ul li a{
   font-size: 1.1em;
   text-decoration: none;
   color: #000 ;
+}
+
+@media screen and (max-width:800px){
+  header nav ul li a{
+    font-size: 0.95em;
+    text-decoration: none;
+    color: #000 ;
+  }
+}
+
+@media screen and (max-width:600px){
+  header nav ul li a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #000 ;
+  }
 }
 
 header nav ul li a:hover{
