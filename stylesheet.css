@@ -1,7 +1,8 @@
 /*--- 全体的な設定 ---*/
 
 body{
-  font-family: "Noto Serif",serif;
+  font-family: "Noto Serif JP",serif;
+  font-variant-numeric: tabular-nums;
   background-color: whitesmoke;
   padding-top: 10.0em;
 }
