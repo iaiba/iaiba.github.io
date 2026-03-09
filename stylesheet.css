@@ -103,7 +103,7 @@ header nav ul li a:hover{
   padding-right: 0.25em;
 }
 
-#page-content p, li{
+#page-content p, li, summary{
   line-height: 1.5;
 }
 
