@@ -103,6 +103,10 @@ header nav ul li a:hover{
   padding-right: 0.25em;
 }
 
+#page-content p, li{
+  line-height: 1.6;
+}
+
 #page-content h2, h3{
   color: #04A;
 }
